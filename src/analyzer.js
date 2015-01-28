@@ -1,6 +1,6 @@
-import RuleAnalyzer from 'rule';
-import SelectorAnalyzer from 'selector';
-import DeclarationAnalyzer from 'declaration';
+import RuleAnalyzer from 'analyzer/rule';
+import SelectorAnalyzer from 'analyzer/selector';
+import DeclarationAnalyzer from 'analyzer/declaration';
 
 export default Analyzer;
 
