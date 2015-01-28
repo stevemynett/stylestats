@@ -1,8 +1,8 @@
-import Analyzer from 'analyzer';
+import Base from 'base';
 
 export default RuleAnalyzer;
 
-class RuleAnalyzer extends Analyzer {
+class RuleAnalyzer extends Base {
 
   constructor(rules = []) {
     super();

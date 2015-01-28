@@ -1,8 +1,8 @@
-import Analyzer from 'analyzer';
+import Base from 'base';
 
 export default SelectorAnalyzer;
 
-class SelectorAnalyzer extends Analyzer {
+class SelectorAnalyzer extends Base {
 
   constructor(selectors = []) {
     super();

@@ -1,10 +1,10 @@
 let _ = require('underscore');
 
-import Analyzer from 'analyzer';
+import Base from 'base';
 
 export default DeclarationAnalyzer;
 
-class DeclarationAnalyzer extends Analyzer {
+class DeclarationAnalyzer extends Base {
 
   constructor(declarations = []) {
     super();
